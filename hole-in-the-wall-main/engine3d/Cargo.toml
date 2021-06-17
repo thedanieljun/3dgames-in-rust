@@ -1,0 +1,32 @@
+[package]
+name = "engine3d"
+version = "0.1.0"
+authors = ["Janice Lee <jlad2017@mymail.pomona.edu>, Daniel Lee <djla2017@mymail.pomona.edu>, Adam Guo <sgab2018@mymail.pomona.edu>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0"
+bytemuck = { version = "1.4", features = [ "derive" ] }
+cgmath = "0.18"
+futures = "0.3"
+image = "0.23"
+log = "0.4"
+tobj = "2.0"
+wgpu = "0.7"
+winit = "0.24.0"
+notify = "4.0.15"
+rand = "0.8.3"
+wgpu_glyph = "0.11.0"
+rodio = "0.13.0"
+ambisonic = "0.4.0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+[build-dependencies]
+anyhow = "1.0"
+fs_extra = "1.2"
+glob = "0.3"
+shaderc = "0.7"
+
+[dependencies.serde_with]
+version = "1.9.0"

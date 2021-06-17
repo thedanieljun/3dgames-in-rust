@@ -1,0 +1,21 @@
+[package]
+name = "hole-in-the-wall"
+version = "0.1.0"
+authors = ["Janice Lee <jlad2017@mymail.pomona.edu>, Daniel Lee <djla2017@mymail.pomona.edu>, Adam Guo <sgab2018@mymail.pomona.edu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+engine3d = {path = "engine3d/"}
+env_logger = "0.7"
+rand = "0.8.3"
+winit = "0.24.0"
+cgmath = "0.18"
+rodio = "0.13.0"
+ambisonic = "0.4.0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+[dependencies.serde_with]
+version = "1.9.0"

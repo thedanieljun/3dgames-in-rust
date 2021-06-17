@@ -1,0 +1,1 @@
+{"wall_z":18.799984,"missing_x":1,"missing_y":0,"wall_type":"Glass","player_posn":{"x":2.8598838,"y":0.5086637,"z":13.657883},"score":3}
